@@ -8,6 +8,24 @@ ENV/
 env/
 .env
 
+# Dependencies
+node_modules/
+
+# Expo / Mobile
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
 # MCP
 mcp_config.json
 .claude/
@@ -20,3 +38,5 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+.env.local

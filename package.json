@@ -1,0 +1,27 @@
+{
+  "name": "aiessentials-mit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spamtylor/aiessentials-mit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/spamtylor/aiessentials-mit/issues"
+  },
+  "homepage": "https://github.com/spamtylor/aiessentials-mit#readme",
+  "dependencies": {
+    "convex": "^1.31.2"
+  }
+}
