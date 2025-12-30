@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "D:/Development/Projects/AIEssentials-MIT"
+            ],
+            "description": "Read/write access to the AIEssentials-MIT project directory"
+        },
+        "memory": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-memory"
+            ],
+            "description": "Persistent key-value memory store for agent knowledge"
+        }
+    }
+}
