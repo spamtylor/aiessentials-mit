@@ -71,12 +71,14 @@ We've compared your "target" stack with where we are right now.
 - **Advanced Agency (ADK)**: You are using the **Agent Development Kit (Python)**. This is actually *more powerful* than standard vibe builders for complex, multi-step agent logic.
 - **Visual Feedback**: Built-in via `browser_subagent`. We can "see" the UI, take screenshots, and record videos to debug the visual vibe in real-time.
 - **Nano Banana Internal**: We have direct access to high-end image generation (`generate_image`) for rapid asset creation (icons, logos) during the prompt flow.
+- **Production Pipeline**: **GitHub -> Vercel** is now fully automated. `git push` is your only required action.
 - **Model Choice**: We are powered by Gemini 2.0/2.5, giving us state-of-the-art multimodal reasoning.
 
 ### ⚠️ Where we are lacking (Gaps)
 
-1. **Simplified Deployment**: We are currently in a local "Dev Lab." We are moving towards an integrated **GitHub -> Vercel** auto-deploy pipeline.
-2. **Standardized Mobile Export**: While we can write mobile code, we don't have the "One-Click to App Store" button that **Anything** provides (yet).
+1. **Reactive Data Layer**: We lack a "zero-config" reactive database (like Convex) integrated directly into our agent workflows. Currently, we write raw Supabase/SQL logic manually.
+2. **Standardized Mobile Export**: While we can write mobile code, we don't have the "One-Click to App Store" button that **Anything** provides. We still need a build bridge.
+3. **Component Library**: We are building from scratch. We lack a "Vibe Kit" of pre-scaffolded, high-animation components that we can inject instantly for hackathon-winning polish.
 
 ---
 
